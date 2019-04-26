@@ -1,36 +1,25 @@
-.navbar .correct {
-    animation: .4s correct;
-    }
-        
-    .navbar .incorrect {
-    animation: .4s incorrect;
-    }
-        
-    @keyframes correct {
-    0% {
-        color: white;
-    }
-        
-    50% {
-        color: #2e7d32;
-    }
-    
-    100% {
+.footer {
+    background:rgb(138, 86, 138);
+    height: 50px;
+    position: relative;
     color: white;
-    }
-    }
-        
-        @keyframes incorrect {
-    0% {
-      color: white;
-    }
-        
-    50% {
-      color: #c62828;
-    }
-        
-    100% {
-      color: white;
-    }
-        }
-    
+    overflow: auto;
+  }
+  
+  .footer > .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(138, 86, 138);
+    padding: 8px;
+    font-weight: 600;
+  }
+  
+  .footer > .bottom > img {
+    width: 20px;
+    position: relative;
+    top: 3px;
+    left: 2px;
+  }
+  
